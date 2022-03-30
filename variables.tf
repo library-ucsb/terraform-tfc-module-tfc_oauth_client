@@ -23,6 +23,11 @@ variable "private_key" {
   type    = string
 }
 
+variable "key" {
+  type    = string
+  default = null  
+}
+
 variable "service_provider" {
   type    = string
   default = "github"  
